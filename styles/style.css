@@ -184,6 +184,48 @@
   font-weight: normal;
 }
 
+.feynman {
+  height: 790px;
+  background: #f2f2f2 url(../images/feynman.png) bottom left no-repeat;
+  background-size: 867px 637px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 0;
+  padding-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/*Выравнивание с помощью transform подсмотрено на Хабре*/
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2f80ed;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
