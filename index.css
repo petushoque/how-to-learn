@@ -11,6 +11,7 @@
 @import url(./blocks/header/__link/header__link.css);
 @import url(./blocks/header/__square-pic/header__square-pic.css);
 @import url(./blocks/logo/_place/logo_place_header.css);
+@import url(./blocks/rotation/rotation.css); /*крутилка*/
 
 @import url(./blocks/description/description.css);
 @import url(./blocks/two-columns/two-columns.css);
@@ -51,3 +52,6 @@
 @import url(./blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(./blocks/footer/__column/_content/footer__column_content_info.css);
 @import url(./blocks/logo/_place/logo_place_footer.css);
+
+/*Все ссылки на странице при наведении мыши должны плавно становиться немного прозрачными,
+подберите opacity и transition на свой вкус*/
