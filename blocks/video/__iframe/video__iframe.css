@@ -1,6 +1,9 @@
 .video__iframe {
     margin: 0;
     transform: translateY(50px);
+    width: 515px;
+    height: 316px;
+    border: 0px;
 }
 
 .video__iframe:nth-child(1) {
