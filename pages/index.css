@@ -83,5 +83,6 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-image/resources__logo-image.css); /*вспомогаетльный элемент, для увеличения изображения до размеров его родительского блока*/
 
 @import url(../blocks/opacity/opacity.css);
